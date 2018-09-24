@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<title>Dashboard</title>
+		<link href="css/style.css" rel="stylesheet"></link>
+		<script type="text/javascript" src="js/dashboard.js"></script>
+		
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+        
+        <meta charset="utf-8" name = "viewport" content="width=device-width, initial scale=1.0">
+
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+        
+        <meta charset="utf-8" name = "viewport" content="width=device-width, initial scale=1.0">
+	</head>
+	<body onload="init();">
+	<nav>
+            <div class="nav-wrapper red lighten-1">
+                <a href="#" class="brand-logo"> Humidity Dashboard</a>
+            </div>
+
+        </nav>
+
+		<div id="chart">
+			<svg>
+				<line x1="10%" y1="10%" x2="10%" y2="90%" class="axis"></line>
+				<line x1="9%" y1="10%" x2="11%" y2="10%" class="axis"></line>
+				<line x1="9%" y1="18%" x2="11%" y2="18%" class="axis"></line>
+				<line x1="9%" y1="26%" x2="11%" y2="26%" class="axis"></line>
+				<line x1="9%" y1="34%" x2="11%" y2="34%" class="axis"></line>
+				<line x1="9%" y1="42%" x2="11%" y2="42%" class="axis"></line>
+				<line x1="9%" y1="50%" x2="11%" y2="50%" class="axis"></line>
+				<line x1="9%" y1="58%" x2="11%" y2="58%" class="axis"></line>
+				<line x1="9%" y1="66%" x2="11%" y2="66%" class="axis"></line>
+				<line x1="9%" y1="74%" x2="11%" y2="74%" class="axis"></line>
+				<line x1="9%" y1="82%" x2="11%" y2="82%" class="axis"></line>
+				<line x1="9%" y1="90%" x2="90%" y2="90%" class="axis"></line>
+				<text x="8%" y="11%" class="yaxis">100</text>
+				<text x="8%" y="19%" class="yaxis">90</text>
+				<text x="8%" y="27%" class="yaxis">80</text>
+				<text x="8%" y="35%" class="yaxis">70</text>
+				<text x="8%" y="43%" class="yaxis">60</text>
+				<text x="8%" y="51%" class="yaxis">50</text>
+				<text x="8%" y="59%" class="yaxis">40</text>
+				<text x="8%" y="67%" class="yaxis">30</text>
+				<text x="8%" y="75%" class="yaxis">20</text>
+				<text x="8%" y="83%" class="yaxis">10</text>
+				<text x="8%" y="91%" class="yaxis">0</text>
+				
+				<rect id="column0" x="11%" y="89%" width="6%" height="1%" class="column"></rect>
+				<text id="value0" x="14%" y="88%" class="value">0%</text>
+				<text id="time0" x="14%" y="94%" class="xaxis">Temp</text>
+			
+				<rect id="column1" x="19%" y="89%" width="6%" height="1%" class="column"></rect>
+				<text id="value1" x="22%" y="88%" class="value">0%</text>
+				<text id="time1" x="22%" y="94%" class="xaxis">CO2</text>
+				
+				<rect id="column2" x="27%" y="89%" width="6%" height="1%" class="column"></rect>
+				<text id="value2" x="30%" y="88%" class="value">0%</text>
+				<text id="time2" x="30%" y="94%" class="xaxis">Hum</text>
+				
+			</svg>
+		</div>
+
+		 <footer class="page-footer red lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Actual Status </h5>
+                <h3 id ="stac" class="grey-text text-lighten-4"></h3>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Last Humidity Registrer</h5>
+                <h3 class="grey-text text-lighten-3" id ="actu" ></h3>
+                
+              </div>
+            </div>
+          </div>
+            
+          <div class="footer-copyright lighten-1">
+            <div class="container">
+            © 2016 Copyright Hidroponia
+            <a class="grey-text text-lighten-4 right" href="#!">7'B</a>
+            </div>
+         
+        </footer>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

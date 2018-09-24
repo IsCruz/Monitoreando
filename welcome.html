@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  
+  <!-- CHART.JS LINK-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js" ></script>
+<link rel="stylesheet" type="text/css" href="welcome.css">
+  
+
+ 
+<body>
+ 
+
+<!-- START NAVBAR -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper deep-purple ">
+        <a href="#!" class="brand-logo left">Monitoreando</a>  
+      </div>
+    </nav>
+  </div>
+<!-- END NAV BAR -->
+<div class="container">
+	<h1 class="center">Bienvenido</h1>
+	<h5 class="center"> Porfavor, Selecciona la sala <span class="green-text text-darken-2"">resaltada</span> que quieres Visualizar</h5>
+	
+
+	<div class="row">
+		<div class="parte1"> <br><br> <h5 class="center white-text text-darken-3">Cunero 1 (Disponible)</h5><br>
+
+		</div>
+	<div id="mapa" class="col s12 m12 ">
+	<div id="mapeo">
+	
+		<img  class ="res" src="mapa.svg">
+	</div>
+	</div>
+		
+	</div>
+</div>
+
+</body>
+<script type="text/javascript">
+		$('.parte1').click(function(){
+			location.href='index.html';
+		});
+</script>
+
+</html>

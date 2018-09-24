@@ -1,0 +1,41 @@
+
+
+#mapeo{
+	width: 100%;
+	height: 100%;
+}
+
+.res{
+	width: 100%;
+	height: 100%;
+}
+
+.parte1{
+	width: 427px;
+    background-color: rgba(0,0,255,0.6);
+    height: 204px;
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 4%;}
+
+.parte1:hover{
+	background-color: rgba(0,0,255,0.9);
+    transition: 1s;
+}
+
+
+    @media only screen and (max-width:500px ){
+
+.parte1{
+	width: 100%;
+    background-color: rgba(0,0,255,0.6);
+    height: 12%;
+    z-index: 200;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 45%;
+    }
+
+    }
+
+
