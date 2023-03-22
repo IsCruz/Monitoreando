@@ -11,8 +11,8 @@ $mail = new PHPMailer;
 //$mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'israelcruzibarra@gmail.com';                 // SMTP username
-$mail->Password = 'Colita084952';                           // SMTP password
+$mail->Username = 'tu_correo@gmail.com';                 // SMTP username
+$mail->Password = 'tu email';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 25;                                    // TCP port to connect to
 
